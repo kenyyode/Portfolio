@@ -426,10 +426,10 @@ main {
   min-block-size: 100vh;
   position: fixed;
   width: 100%;
-  background-color: #ff5e99;
-  background-image: var(--gradient-brand);
-  transition: 450ms var(--easing);
-  z-index: 3;
+  background-color: #000000;
+  /* background-image: var(--gradient-brand);
+  transition: 450ms var(--easing); */
+  z-index: 3; 
 }
 
 .nav-items {
