@@ -1253,3 +1253,29 @@ input:checked {
   --thumb-position: 100%;
   background-color: var(--track-active);
 }
+
+
+.contact-details {
+  font-size: var(--text-medium);
+  color: var(--body);
+  line-height: 1.6;
+  text-align: center; /* Center-align the text and image */
+}
+
+.contact-details img.contact-image {
+  display: block; /* Make the image a block element */
+  margin: 0 auto 20px auto; /* Center the image horizontally and add space below */
+  width: 150px; /* Adjust the width of the image */
+  height: 150px; /* Adjust the height of the image */
+  border-radius: 50%; /* Make the image circular */
+}
+
+.contact-details a {
+  color: var(--important);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: var(--sub);
+}
