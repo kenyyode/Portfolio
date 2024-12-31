@@ -482,7 +482,7 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+    url("assets/images/new-image.jpg");
 }
 
 body.light .header {
@@ -491,33 +491,28 @@ body.light .header {
 }
 
 .header-textbox {
+  text-align: center;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .h1 span {
-  display: block;
+  display: inline;
 }
 
 .header-text {
-  font-size: var(--text-large);
+  font-size: var(--text-small);
+  text-align: center;
   font-weight: 400;
-  max-inline-size: 745px;
   margin-block-start: var(--gutter-micro);
   margin-block-end: var(--gutter-medium);
 }
 
 @media (max-width: 1200px) {
-  .header-text {
-    max-inline-size: 685px;
-  }
 }
 
 @media (max-width: 845px) {
-  .header-text {
-    max-inline-size: 585px;
-  }
 }
 
 .header-btns {
