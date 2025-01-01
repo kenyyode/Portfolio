@@ -482,7 +482,7 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("./assets/images/new-image.jpg") !important;
+    url("./assets/images/new-image.jpg") !important ;
 }
 
 body.light .header {
@@ -499,6 +499,7 @@ body.light .header {
 
 .h1 span {
   display: inline;
+  text-align: center;
 }
 
 .header-text {
@@ -509,7 +510,13 @@ body.light .header {
   margin-block-end: var(--gutter-medium);
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1600px) {
+  .header-textbox {
+    left: 0;
+    text-align: center;
+    padding-inline: 2.0rem;
+  }
+  
 }
 
 @media (max-width: 845px) {
