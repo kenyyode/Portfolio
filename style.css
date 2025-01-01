@@ -518,6 +518,11 @@ body.light .header {
     text-align: center;
     padding-inline: 2.0rem;
   }
+
+  .header-btns {
+    flex-direction: column;
+    width: 80%;
+  }
 }
 
 .header-btns {
