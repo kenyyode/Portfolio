@@ -16,3 +16,17 @@
 .intuition {
     color: #7866E8;
 }
+
+.hearder-role {
+    animation: first;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes first {
+    25% {color: white;};
+    50% {color:#7866E8};
+
+}
