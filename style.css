@@ -513,6 +513,11 @@ body.light .header {
 }
 
 @media (max-width: 845px) {
+  .header-textbox {
+    left: 0;
+    text-align: center;
+    padding-inline: 2.0rem;
+  }
 }
 
 .header-btns {
