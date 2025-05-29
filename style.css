@@ -642,7 +642,7 @@ body.light .logo {
   }
 
   .work-box {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; 
     align-items: flex-start;
   }
 
@@ -660,15 +660,16 @@ body.light .logo {
     margin-block-end: 8rem;
   }
 }
+  .work-box {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
 
-.work-img,
-.work-textbox {
-  flex-basis: 49%;
-}
 
 .work-img {
-  max-inline-size: 785px;
+  max-inline-size: 800px;
   transition: 0.6s all;
+  margin-bottom: 5%;
 }
 
 body.light .work-img {
@@ -676,7 +677,7 @@ body.light .work-img {
 }
 
 .work-textbox {
-  max-inline-size: 445px;
+  max-inline-size: 800px;
 }
 
 @media (max-width: 885px) {
