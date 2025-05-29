@@ -478,6 +478,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  height: 100vh;
 }
 
 body.dark .header {
